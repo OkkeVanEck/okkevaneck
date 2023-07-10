@@ -84,6 +84,7 @@ const _onButtonClicked = () => {
 
   .subheading {
     font-size: 1rem;
+    font-weight: 530;
     color: $dark-faded;
     font-family: $subheadings-font-family;
   }

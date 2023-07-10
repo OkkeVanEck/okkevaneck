@@ -6,14 +6,19 @@
         <img :src="aboutData.content.image" alt="logo" class="img img-fluid">
       </div>
 
-      <!-- Texts & Links -->
+      <!-- Texts -->
       <div class="col col-12 col-md-6">
         <template v-for="paragraph in aboutData.content.paragraphs">
           <p v-html="paragraph"></p>
         </template>
 
-        <div class="text-center">
-          <XLButton :label="aboutData.button.label" :icon="aboutData.button.icon" :href="aboutData.button.href"></XLButton>
+        <!-- Social Icons with Links -->
+        <div style="justify-content: center; display: flex">
+          <template v-for="item in socialData.links.items">
+            <a class="btn btn-social mx-2" :href="item.href" :aria-label="item.icon">
+              <i :class="item.icon"></i>
+            </a>
+          </template>
         </div>
       </div>
     </div>
@@ -22,9 +27,9 @@
 
 <script setup>
 import agencyData from '../data/agency.json'
-import XLButton from "../components/XLButton.vue"
 import PageSectionWrapper from "../components/PageSectionWrapper.vue"
 const aboutData = agencyData.about
+const socialData = agencyData.social
 </script>
 
 <style scoped lang="scss">
@@ -42,6 +47,20 @@ const aboutData = agencyData.about
 
     p {
       text-align: justify;
+    }
+  }
+
+  .btn-social {
+    color: $dark-faded;
+    border-color: $dark-faded;
+    border-radius: 100%;
+    border-width: 2px;
+    font-size: 1.3rem;
+
+    &:hover {
+      background-color: white;
+      color: $primary;
+      border-color: $primary;
     }
   }
 
