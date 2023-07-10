@@ -11,8 +11,8 @@
   },
 
   "navbar": {
-    "brand": "<span class='text-primary'>Foxy</span> Agency",
-    "srcLogo": "images/agency-logo-small.png",
+    "brand": "<span class='text-primary'>Okke</span> van Eck",
+    "srcLogo": "images/round_image_board.png",
     "menuOptions": [
       {
         "id": "about",
@@ -75,6 +75,30 @@
         "location": "Universiteit van Amsterdam",
         "time": "Sep. 2018 - Feb. 2021 · 2 jr 6 mnd",
         "srcImage": "images/experiences/uva_logo.png",
+        "tags": ["marketing", "seo", "growth"],
+        "description": "A project aimed at providing innovative software solutions to businesses. The company plans to expand its reach by developing a mobile app that will allow users to access their services from anywhere. With a focus on user experience, the app will feature a simple interface, fast loading times, and easy navigation. TechMeUp also plans to partner with other companies to offer integrated services, increasing revenue streams and boosting brand recognition. To support growth, the company will invest in marketing, including social media campaigns and targeted advertising."
+      },
+      {
+        "title": "Commissioner of Education",
+        "location": "Vereniging Informatiewetenschappen Amsterdam",
+        "time": "feb. 2019 - feb. 2020 · 1 jr 1 mnd",
+        "srcImage": "images/experiences/via_logo.png",
+        "tags": ["marketing", "seo", "growth"],
+        "description": "A project aimed at providing innovative software solutions to businesses. The company plans to expand its reach by developing a mobile app that will allow users to access their services from anywhere. With a focus on user experience, the app will feature a simple interface, fast loading times, and easy navigation. TechMeUp also plans to partner with other companies to offer integrated services, increasing revenue streams and boosting brand recognition. To support growth, the company will invest in marketing, including social media campaigns and targeted advertising."
+      },
+      {
+        "title": "Co-founder",
+        "location": "eJournal",
+        "time": "jun. 2018 - jul. 2018 · 2 mnd",
+        "srcImage": "images/experiences/ejournal_logo.png",
+        "tags": ["marketing", "seo", "growth"],
+        "description": "A project aimed at providing innovative software solutions to businesses. The company plans to expand its reach by developing a mobile app that will allow users to access their services from anywhere. With a focus on user experience, the app will feature a simple interface, fast loading times, and easy navigation. TechMeUp also plans to partner with other companies to offer integrated services, increasing revenue streams and boosting brand recognition. To support growth, the company will invest in marketing, including social media campaigns and targeted advertising."
+      },
+      {
+        "title": "Junior Consultant",
+        "location": "ClickValue",
+        "time": "jun. 2017 - okt. 2017 · 5 mnd",
+        "srcImage": "images/experiences/clickvalue_logo.png",
         "tags": ["marketing", "seo", "growth"],
         "description": "A project aimed at providing innovative software solutions to businesses. The company plans to expand its reach by developing a mobile app that will allow users to access their services from anywhere. With a focus on user experience, the app will feature a simple interface, fast loading times, and easy navigation. TechMeUp also plans to partner with other companies to offer integrated services, increasing revenue streams and boosting brand recognition. To support growth, the company will invest in marketing, including social media campaigns and targeted advertising."
       }

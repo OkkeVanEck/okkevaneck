@@ -87,7 +87,8 @@ const _onProjectSelected = (project) => {
   }
 
   .experience-cover-img {
-    max-height: 175px;
+      height: 175px;
+    object-fit: contain;
   }
 }
 </style>

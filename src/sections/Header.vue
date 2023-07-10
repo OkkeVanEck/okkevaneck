@@ -40,7 +40,7 @@ const _onButtonClicked = () => {
 
 .content-top-bg {
   /* Source of background: https://www.freepik.com/free-vector/gradient-golden-linear-background_13859365.htm */
-  background-image: url('../assets/mountain2.jpg');
+  background-image: url('../assets/mountain2.png');
   background-position: center;
   background-size: cover;
   height: 100%;
