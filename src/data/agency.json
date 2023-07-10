@@ -2,7 +2,7 @@
   "header": {
     "title": "Okke van Eck",
     "subtitle": "Nice to meet you!",
-    "srcImage": "images/agency-logo.png",
+    "srcImage": "images/round_image_board.png",
     "button": {
       "label": "Find Out More",
       "icon": "fa fa-search",
@@ -49,20 +49,19 @@
 
   "about": {
     "id": "about",
-    "title": "<span class='text-primary'>About</span> Template",
-    "subtitle": "Get to know more about the project!",
+    "title": "<span class='text-primary'>About</span> Me",
+    "subtitle": "Let me introduce myself!",
     "content": {
-      "image": "images/agency-logo.png",
+      "image": "images/family_photo.jpg",
       "paragraphs": [
-        "Ryan Balieiro created the Foxy Agency Template, a free Vue3 & Bootstrap 5.0 theme. The downloadable files consist of the entire source code, including HTML, CSS, and Javascript. Please feel free to download and customize the theme as you wish.",
-        "With this template, you have the freedom to create custom sections, fill pre-existing ones with your own content, and personalize the colors, fonts, and much more to your liking.",
-        "In case you encounter any challenges while attempting to customize or run this template, please feel free to reach out to me without any hesitation. I would be more than happy to extend my assistance and help you out in every possible way."
+        "Hi, I'm Okke van Eck, a computer scientist born and raised in The Netherlands. During my studies, I have developed an interest in complexity and optimization problems. This is currently also my main field of work. Besides my studies, I have had a diverse set of experiences, ranging from being a teacher, to working as a junior consultant, and even co-founding a company.",
+        "I hope you will find my background, projects, and publications interesting. Feel free to contact me if you have any questions!"
       ]
     },
     "button": {
-      "label": "Download Now!",
-      "icon": "fa-solid fa-download",
-      "href": "https://github.com/ryanbalieiro/foxy-template"
+      "label": "Contact Info",
+      "icon": "fa-solid fa-address-card me-2",
+      "href": "#contact"
     }
   },
 
@@ -262,6 +261,6 @@
       ]
     },
 
-    "copyright": "Copyright © Ryan Balieiro 2022-2099"
+    "copyright": "Copyright © Okke van Eck 2023-2099"
   }
 }

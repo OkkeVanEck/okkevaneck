@@ -31,6 +31,7 @@ const aboutData = agencyData.about
   @import "../scss/_theming.scss";
 
   .img {
+    border: 3px solid #000000;
     max-height: 160px;
   }
 
@@ -52,7 +53,7 @@ const aboutData = agencyData.about
 
   @include media-breakpoint-up(lg) {
     .img {
-      max-height: 350px;
+      max-height: 300px;
     }
 
     .col {
