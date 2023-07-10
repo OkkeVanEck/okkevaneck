@@ -39,7 +39,8 @@ const _onButtonClicked = () => {
 }
 
 .content-top-bg {
-  background-image: url('../assets/header-bg.jpeg');
+  /* Source of background: https://www.freepik.com/free-vector/gradient-golden-linear-background_13859365.htm */
+  background-image: url('../assets/mountain2.jpg');
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -51,8 +52,10 @@ const _onButtonClicked = () => {
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.73)), color-stop(70%, rgba(30, 30, 30, 0.86)), color-stop(80%, rgba(30, 30, 30, 0.99)), to(rgba(30, 30, 30, 1)));
-    background-image: linear-gradient(180deg, rgba(30, 30, 30, 0.73) 0%, rgba(30, 30, 30, 0.86) 30%, rgba(30, 30, 30, 0.99) 60%, rgba(30, 30, 30, 1) 100%);
+    //background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.73)), color-stop(70%, rgba(30, 30, 30, 0.86)), color-stop(80%, rgba(30, 30, 30, 0.99)), to(rgba(30, 30, 30, 1)));
+    //background-image: linear-gradient(180deg, rgba(30, 30, 30, 0.73) 0%, rgba(30, 30, 30, 0.86) 30%, rgba(30, 30, 30, 0.99) 60%, rgba(30, 30, 30, 1) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 4, 170, 0.73)), to(rgba(250, 250, 250, 0.86)));
+    background-image: linear-gradient(180deg, rgba(5, 4, 170, 0.73) 0%, rgba(250, 250, 250, 0.86) 100%);
   }
 }
 
@@ -82,7 +85,7 @@ const _onButtonClicked = () => {
 
   .subheading {
     font-size: 1rem;
-    color: $white-faded;
+    color: $dark-faded;
     font-family: $subheadings-font-family;
   }
 }

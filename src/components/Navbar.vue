@@ -80,7 +80,7 @@ const _onNavLinkClicked = (sectionId) => {
 .navbar {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
-  background-color: $dark;
+  background-color: $blue;
 
   .navbar-toggler {
     padding: 0.6rem;
@@ -90,7 +90,7 @@ const _onNavLinkClicked = (sectionId) => {
     font-weight: $font-weight-bold;
 
     &:focus {
-      background-color: $gray-800;
+      background-color: $blue;
     }
   }
 
@@ -151,7 +151,7 @@ const _onNavLinkClicked = (sectionId) => {
     &-shrink {
       padding-top: 0.4rem;
       padding-bottom: 0.4rem;
-      background-color: $dark;
+      background-color: $blue;
 
       .navbar-brand {
         font-size: 1.4em;
